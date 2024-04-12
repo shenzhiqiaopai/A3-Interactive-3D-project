@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class PlayerController : MonoBehaviour
@@ -36,6 +37,10 @@ public class PlayerController : MonoBehaviour
         Vector3 movement=new Vector3(movex,0.0f,movey);
         rb.AddForce(movement*movespeed);
         SetCounterText();
+        if (count >= 10)
+        {
+            SceneManager.LoadScene("Home Page");
+        }
     }
 
     public void OnTriggerEnter(Collider other){

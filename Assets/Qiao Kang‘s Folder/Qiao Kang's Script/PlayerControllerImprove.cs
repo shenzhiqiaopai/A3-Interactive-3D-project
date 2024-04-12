@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class PlayerControllerImprove : MonoBehaviour
@@ -51,6 +52,12 @@ public class PlayerControllerImprove : MonoBehaviour
         }
         
         SetCounterText();
+        if (count >= 10)
+        {
+            // 如果计数达到10，则跳转到主页场景
+            SceneManager.LoadScene("Home Page"); // 替换 "MainMenu" 为你主页场景的名称
+        }
+
     }
 
     public void OnTriggerEnter(Collider other){
@@ -63,6 +70,6 @@ public class PlayerControllerImprove : MonoBehaviour
 
     public void SetCounterText()
     {
-        countText.text = "Score: " + count.ToString() + "/15";
+        countText.text = "Score: " + count.ToString() + "/10";
     }
 }
