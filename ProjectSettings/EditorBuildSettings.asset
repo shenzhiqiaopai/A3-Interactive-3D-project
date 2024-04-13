@@ -9,7 +9,12 @@ EditorBuildSettings:
     path: "Assets/Qiao Kang\u2018s Folder/Home Page.unity"
     guid: 4ec1d6d5b4ab5ee4383c939c4f6b6394
   - enabled: 1
-    path: "Assets/Qiao Kang\u2018s Folder/Qiao Kang's Scene.unity"
-    guid: 61fa47844f569e04fa87e4f21b02c15c
-  m_configObjects:
-    com.unity.input.settings: {fileID: 11400000, guid: ded4c7381ab11244481989093534ffb5, type: 2}
+    path: Assets/Xiaoru Ren's Folder/Xiaoru Ren's Scene.unity
+    guid: a6756b30201c7ec47b2897ff9058f8e0
+  - enabled: 1
+    path: Assets/Zhenrui Tian's Folder/Zhenrui Tian's Scene.unity
+    guid: 8e1fcc0efc3b86543b07f0176f21e34d
+  - enabled: 1
+    path: "Assets/Zihan Zhou\u2018s Folder/Zihan Zhou's Scene.unity"
+    guid: f23e08cdebda68449bc157014463d4ee
+  m_configObjects: {}
