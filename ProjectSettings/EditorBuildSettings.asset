@@ -9,12 +9,6 @@ EditorBuildSettings:
     path: "Assets/Qiao Kang\u2018s Folder/Home Page.unity"
     guid: 4ec1d6d5b4ab5ee4383c939c4f6b6394
   - enabled: 1
-    path: Assets/Xiaoru Ren's Folder/Xiaoru Ren's Scene.unity
-    guid: a6756b30201c7ec47b2897ff9058f8e0
-  - enabled: 1
-    path: Assets/Zhenrui Tian's Folder/Zhenrui Tian's Scene.unity
-    guid: 8e1fcc0efc3b86543b07f0176f21e34d
-  - enabled: 1
-    path: "Assets/Zihan Zhou\u2018s Folder/Zihan Zhou's Scene.unity"
-    guid: f23e08cdebda68449bc157014463d4ee
+    path: Assets/SimpleNaturePack_Demo.unity
+    guid: 5e7af4bd95ac53a4cb784a9eedf8f6f9
   m_configObjects: {}
